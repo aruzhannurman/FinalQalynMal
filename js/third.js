@@ -791,3 +791,22 @@ window.addEventListener("DOMContentLoaded", event => {
     audio.volume = 0.7;
     audio.play();
   });
+
+
+
+
+
+
+
+
+
+
+
+  const jsConfetti = new JSConfetti()
+
+  setInterval(() => {
+    jsConfetti.addConfetti({
+       
+  })
+},1500)
+

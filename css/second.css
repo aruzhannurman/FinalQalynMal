@@ -64,7 +64,8 @@ body {
 .item {
     display:flex;
     align-items:center;
-    border-bottom: 1px solid #F1F1F1;
+    border-bottom: 1px solid #fff5f5;
+    height:84px;
   }
 
   .item:last-child {

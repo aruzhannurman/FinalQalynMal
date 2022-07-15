@@ -2,6 +2,7 @@
   <head>
     <title>player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QalynMal</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -10,25 +11,39 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <p id="sumRes" style="text-align: center">
-        <!-- <script type="text/javascript">
 
-        var min = 1000000;
-        var max = 8000000;
+    <!-- <canvas id="canvas"></canvas> -->
 
-        function getRandomInt(min, max) {
-          min = Math.ceil(min);
-          max = Math.floor(max);
-          return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
 
-          alert("5 000 000");
-          </script> -->
-      </p>
-    </div>
+    
 
     <div class="frame">
+
+      <!-- id="sumRes"  -->
+   
+    <div class="wrapper">
+      <p style="text-align: center, color: white, padding-left: 8px, padding-top: 8px " >
+  1000000
+      </p>
+      <p class="tg">теңге</p>
+
+      <div class="left">
+        <img
+              src="../assets/My project(1).png"
+              width="290"
+              height="200"
+              alt="Italian Trulli"
+            />
+      </div>
+      <div class="right">
+        <img
+              src="../assets/My project(1).png"
+              width="290"
+              height="200"
+              alt="Italian Trulli"
+            />
+      </div>
+    </div>
       <canvas class="game-canvas" id="main-canvas" width="880" height="560">
       </canvas>
     </div>
@@ -37,111 +52,15 @@
       <h1>Қалың Малыңыздың есебі:</h1>
     </div>
 
-    <div>
-      <div class="dastarhan1">
-        <img
-          src="../assets/food1.png"
-          width="280"
-          height="240"
-          alt="Italian Trulli"
-        />
-      </div>
 
-      <div class="dastarhan2">
-        <img
-          src="../assets/food5.png"
-          width="280"
-          height="200"
-          alt="Italian Trulli"
-        />
-      </div>
 
-      <div class="dastarhan3">
-        <img
-          src="../assets/food4.png"
-          width="300"
-          height="240"
-          alt="Italian Trulli"
-        />
-      </div>
 
-      <div class="dastarhan4">
-        <img
-          src="../assets/My project(1).png"
-          width="280"
-          height="200"
-          alt="Italian Trulli"
-        />
-      </div>
+     
 
-      <div class="dastarhan5">
-        <img
-          src="../assets/My project(2).png"
-          width="250"
-          height="180"
-          alt="Italian Trulli"
-        />
-      </div>
-
-      <div class="right1">
-        <img
-          src="../assets/food1.png"
-          width="280"
-          height="240"
-          alt="Italian Trulli"
-        />
-      </div>
-
-      <div class="right2">
-        <img
-          src="../assets/food5.png"
-          width="280"
-          height="200"
-          alt="Italian Trulli"
-        />
-      </div>
-
-      <div class="right3">
-        <img
-          src="../assets/My project(1).png"
-          width="280"
-          height="240"
-          alt="Italian Trulli"
-        />
-      </div>
-
-      <div class="right4">
-        <img
-          src="../assets/My project(2).png"
-          width="280"
-          height="200"
-          alt="Italian Trulli"
-        />
-      </div>
-      <div class="right5">
-        <img
-          src="../assets/food3.png"
-          width="280"
-          height="240"
-          alt="Italian Trulli"
-        />
-      </div>
-
-      <div class="right6">
-        <img
-          src="../assets/page1.png"
-          width="210"
-          height="220"
-          alt="Italian Trulli"
-        />
-      </div>
-    </div>
-    <!-- <button class="music-button off" id="sj-music-button">Press for Music!</button> -->
-
-    <audio autoplay>
+    <!-- <audio autoplay>
       <source src="../assets/song1.mp3" type="audio/mp3" />
-    </audio>
-
+    </audio> -->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
     <script>
       document.getElementById("sumRes").innerHTML = localStorage.getItem("sum");
     </script>

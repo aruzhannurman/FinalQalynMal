@@ -121,173 +121,67 @@
   
   
 
-
-
-
-
-.dastarhan1{
- 
-
- top:70px;
- left:300px;
- width: 18%;
-  display: fixed;
-  
-  position: absolute;
- 
-}
-
-.dastarhan2{
-
-
-  top:140px;
-  left:340px;
-  width: 18%;
-   display: fixed;
-   
-   position: absolute;
-  
- 
- }
-
- .dastarhan3{
-
-  top:80px;
-  left:410px;
-  width: 14%;
-   display: fixed;
-   
-   position: absolute;
-  
- 
- }
- .dastarhan4{
-
-
-  top:140px;
-  left:270px;
-  width: 18%;
-   display: fixed;
-   
-   position: absolute;
-  
- 
- }
-
- .dastarhan5{
-
-
-  top:150px;
-  left:430px;
-  width: 15%;
-   display: fixed;
-   
-   position: absolute;
-  
- 
- }
-
  .NameToi{
-  margin: 0;
-    padding: 0;
-    /* border: solid; */
+  width: 100%;
+  
     position:absolute;
     display: flex;
+    justify-content: center;
     z-index: 15;
     top:61px;
-    left:510px;
+    left:3%;
+    
  }
 
- .right1{
- 
 
-  top:70px;
-  right:300px;
-  width: 18%;
-   display: fixed;
-   
-   position: absolute;
-  
- }
- 
- .right2{
- 
- 
-   top:140px;
-   right:340px;
-   width: 18%;
-    display: fixed;
-    
-    position: absolute;
-   
-  
-  }
-
-  .right3{
-
-    top:130px;
-    right:510px;
-    width: 14%;
-     display: fixed;
-     
-     position: absolute;
-    
-   
-   }
-   .right4{
-  
-  
-    top:90px;
-    right:420px;
-    width: 18%;
-     display: fixed;
-     
-     position: absolute;
-    
-   
-   }
-  
-   .right5{
-  
-  
-    top:130px;
-    right:430px;
-    width: 15%;
-     display: fixed;
-  
-     position: absolute;
-    
-   
-   }
-
-   .right6{
-
-    top:120px;
-    right:300px;
-    width: 14%;
-     display: fixed;
-     
-     position: absolute;
-    
-   
-   }
 
 
 .wrapper{
-  position: fixed;
-  width: 100px;
+  position: relative;
+
+  width: 150px;
   height: 50px;
-  background: rgb(27, 25, 25);
-  opacity:0.85;
+  background: rgb(52, 48, 48);
+  opacity: 0.85;
   border-radius: 15px;
   box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.15);
-  z-index:200;
-  top:18%;
-  left:47%
+  z-index: 200;
+  top: 200px;
+  left: 43%;
+  
 }
 
 #sumRes{
   color: white;
-  size: 20px;
+  padding-left: 8px;
+padding-top: 8px;
   
+}
+.NameToi h1{
+  color:#D3D3D3;
+
+}
+
+.left{
+  width: 100%;
+  position:relative;
+
+  left: -315px;
+top: -55px;
+}
+.right{
+  width: 100%;
+  position:relative;
+
+  right: -170px;
+bottom: 250px;
+
+}
+
+.tg{
+ 
+color: white;
+margin-top: -10px;
+margin-left: 30%;
+
 }
